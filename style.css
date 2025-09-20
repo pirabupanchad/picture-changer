@@ -1,0 +1,33 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    min-height: 100vh;
+    background-size:cover;
+    background-position: center;
+    transition: background-image 0.5s ease-in-out;
+    /* smooth transition */ 
+}
+
+.button {
+    margin-top: 20px;
+}
+
+button{
+    padding: 10px 20px
+    margin: 0 10px;
+    front- size: 16px;
+    cursor: pointer;
+    border: none; 
+    border-radius: 5 px;
+    background color: blue#007bff
+    color: white;
+
+}
+
+button: hover {
+    background-color: blue#0056b3
+}
